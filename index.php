@@ -32,6 +32,7 @@
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#">Sejarah</a></li>
                     <li><a href="#">Budaya</a></li>
+                    <li><a href="tugas3.php">Tugas 3</a></li>
                 </ul>
             </div>
         </nav>

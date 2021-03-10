@@ -59,6 +59,8 @@ if(isset($_POST['submit'])){
                 </div>
                 <ul class="nav navbar-nav">
                     <li><a href="index.php">Home</a></li>
+                    <li><a href="#">Sejarah</a></li>
+                    <li><a href="#">Budaya</a></li>
                     <li><a href="tugas3.php">Tugas 3</a></li>
                 </ul>
             </div>
