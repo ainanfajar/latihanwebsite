@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="with=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -46,10 +46,13 @@
                         Sekolah dasar (disingkat SD; bahasa Inggris: Elementary School atau Primary School)
                         adalah jenjang paling dasar pada pendidikan formal di Indonesia.
                         Sekolah dasar ditempuh dalam waktu 6 tahun, mulai dari kelas 1 sampai kelas 6.
-                        Saat ini murid kelas 6 diwajibkan mengikuti Ujian Nasional (EBTANAS) yang mempengaruhi kelulusan siswa.
-                        Lulusan sekolah dasar dapat melanjutkan pendidikan ke tingkat SLTP. Pelajar sekolah dasar umumnya berusia 6-12 tahun.
+                        Saat ini murid kelas 6 diwajibkan mengikuti Ujian Nasional (EBTANAS) yang mempengaruhi kelulusan
+                        siswa.
+                        Lulusan sekolah dasar dapat melanjutkan pendidikan ke tingkat SLTP. Pelajar sekolah dasar
+                        umumnya berusia 6-12 tahun.
                         Di Indonesia, setiap warga negara berusia 6-15 tahun wajib mengikuti pendidikan dasar,
-                        yakni sekolah dasar (atau sederajat) 6 tahun dan sekolah menengah pertama (atau sederajat) 3 tahun.
+                        yakni sekolah dasar (atau sederajat) 6 tahun dan sekolah menengah pertama (atau sederajat) 3
+                        tahun.
                     </p>
                 </div>
                 <div class="col-lg-4">
@@ -65,7 +68,7 @@
                     <a class="link" href="https://id.wikipedia.org/wiki/Sekolah_dasar" target="_blank">Selengkapnya</a>
                 </div>
             </div>
-            
+
             <div class="row">
                 <div class="col-lg-8">
                     <h3>Form Pengisian Survei</h3>
@@ -102,7 +105,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="jawaban"class="control-label col-sm-3">Yang anda tahu tentang SD:</label>
+                            <label for="jawaban" class="control-label col-sm-3">Yang anda tahu tentang SD:</label>
                             <div class="col-sm-9">
                                 <textarea class="form-control input" id="jawaban" name="jawaban"></textarea>
                             </div>
@@ -129,25 +132,25 @@
     </footer>
 
     <script>
-        $(document).ready(function() {
-            $('#submit').click(function(){
-                alert('Survei Anda Berhasil!');
-            });
-
-            $('.input').focus(function(){
-                $(this).css('background', 'lightgrey')
-            });
-
-            $('.input').blur(function(){
-                $(this).css('background', 'white')
-            });
-            
-            $('.form').hide();
-
-            $('#btn').click(function(){
-                $('.form').toggle();
-            });
+    $(document).ready(function() {
+        $('#submit').click(function() {
+            alert('Survei Anda Berhasil!');
         });
+
+        $('.input').focus(function() {
+            $(this).css('background', 'lightgrey')
+        });
+
+        $('.input').blur(function() {
+            $(this).css('background', 'white')
+        });
+
+        $('.form').hide();
+
+        $('#btn').click(function() {
+            $('.form').toggle();
+        });
+    });
     </script>
 </body>
 
